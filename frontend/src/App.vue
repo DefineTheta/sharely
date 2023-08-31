@@ -1,11 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FileExplorer from "./components/FileExplorer.vue";
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello World!</h1>
+  <div class="p-4">
+    <FileExplorer />
+  </div>
 </template>
-
-<style scoped>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>
